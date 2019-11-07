@@ -1,5 +1,7 @@
 body{
     background-color: black;
+     
+
 }
 
 
@@ -11,17 +13,17 @@ nav {
 	background: linear-gradient(to bottom,black 0%,grey 180%); 
 }
 
+
 .logo{
   	height: 9%;
   	width: 9%;
-  	margin-right: 30px;
-  	margin-left: 20px;
+  	margin-right: -6%;
+  	margin-left: 3%;
 }
 .container{
     
-    margin-bottom: -6px;
+    margin-bottom: -0.2%;
 }
-
 
 
 ul {
@@ -37,13 +39,13 @@ a {
 	border-color: white;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.1% 0.1%;
     margin:auto;
-    font-size: 30px;
+    font-size: 1.7rem;
 }
 .banner {
 
-    padding-right: 30px;
+    padding-right: 5%;
     margin: 0 auto;
     background-color: white;
 
@@ -60,62 +62,75 @@ div div {
 }
 .contenedor {
     display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #454545; 
 }
 .futer{
-    height:200px; 
+
+    padding-left: 6%;
+    padding-top: 0.8%; 
     display: flex;
     background:linear-gradient(to top,black 0%,grey 180%);
 }
 .TextoFooter{
+
     position:left;
-    padding-top: 2%;
-    padding-left: 3%;
-    width: 60%;
+    padding-right: 5%;
+    width: 27%;
+    font-size: 1rem;
 }
+
 
 p{
-
      color: white;
-    margin:auto;
+     margin:auto;
      text-align:left;
      font-size: 100%;
-
-
 }
 .footerizquierdo{
-
- 
- border-left: 2px white solid;
- text-align: center;
-
+     margin-left: 4%;
+     padding-top: 0.5%;
+     border-left: 1px black solid;
+     text-align: center;
 
 }
     .SosialMedia{
-
-     border-left: 2px white solid;
+      width: 50%;
+      padding-left: 9%;
+      padding-top: 1.5%;
+      border-left: 1px black solid;
     }
 
     .linkedin{
 
-     padding-right:30px;
+     padding-right:10%;
 
     }
 
     .twitter{
 
-     padding-right:30px; 
+     padding-right:10%; 
 
     }
     .facebook{
 
-    padding-right:30px;
+    padding-right:10%;
 
 
     }
 
     .instagram{
 
-     padding-right:30px;
+     padding-right:10%;
       
     }
 
+.formulario{
+  margin-top: 5%;
+      margin-left: 25%;
+      margin-right: 25%;
+      padding-bottom: 5%;
+       background-image:url("../img/background_contact.jpg");
+
+}
