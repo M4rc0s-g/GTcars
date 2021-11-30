@@ -1,0 +1,185 @@
+body{
+
+
+       background-image:url("../img/fondobmw.jpg");
+       background-repeat: no-repeat;
+       background-color: black;
+       background-size: 100% 100%;
+       background-position: center;
+
+      
+
+     
+
+}
+
+
+header{
+	background:  #666666;
+}
+nav {
+	display:flex;
+	background: linear-gradient(to top,black 0%,grey 180%); 
+}
+
+
+.logo{
+  	height: 9%;
+  	width: 9%;
+  	margin-right: -6%;
+  	margin-left: 3%;
+}
+.container{
+    
+    margin-bottom: -0.2%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 10px auto;
+    overflow: hidden;
+    display:flex;
+    align-items: center;  /* Centra contenido de la lista en el centro en vertical*/
+  
+}
+
+a { 	
+	border-color: white;
+    color: white;
+    text-align: center;
+    padding: 0.1% 0.1%;
+    margin:auto;
+    font-size: 1.7rem;
+}
+.banner {
+
+    padding-right: 5%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+div div {
+
+    display: inline-block;
+
+
+}
+
+.banner{
+    display: inline-flex;
+}
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #454545; 
+}
+.futer{
+
+    padding-left: 6%;
+    padding-top: 0.8%; 
+    display: flex;
+    background:linear-gradient(to bottom,black 0%,grey 180%);
+}
+.TextoFooter{
+
+    position:left;
+    padding-right: 5%;
+    width: 27%;
+    font-size: 1rem;
+}
+
+
+p{
+     color: white;
+     margin:auto;
+     text-align:left;
+     font-size: 100%;
+}
+.footerizquierdo{
+     margin-left: 4%;
+     padding-top: 0.4%;
+     border-left: 1px black solid;
+     text-align: center;
+
+}
+    .SosialMedia{
+      width: 50%;
+      padding-left: 9%;
+      padding-top: 1.5%;
+      border-left: 1px black solid;
+    }
+
+    .linkedin{
+
+     padding-right:10%;
+
+    }
+
+    .twitter{
+
+     padding-right:10%; 
+
+    }
+    .facebook{
+
+    padding-right:10%;
+
+
+    }
+
+    .instagram{
+
+     padding-right:10%;
+      
+    }
+
+
+.formulario{
+
+      width: 100%;
+      padding-top: 8.5%;
+      padding-left: 25%;
+      padding-right: 25%;
+      padding-bottom: 7.9%;
+
+      
+
+}
+
+label{
+
+  font-size: 1.7rem;
+
+  color:#ffffff;
+
+}
+
+.form-control{
+
+  color:white; 
+  background-color: #979fad;
+}
+.form-row{
+  border-color:2px solid white; 
+}
+
+.bgimg{
+  background-image: url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjEzYTl7OHlAhUPxoUKHaDYAU4QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.volkswagen-comerciales.es%2Fes%2Fmodelos%2Ftransporter-6-1.html&psig=AOvVaw0939-_aL5a8XtZPmQaUCRO&ust=1573551101373158);
+}
+
+h2 {
+  color: white;
+}
+
+.img-background{
+
+ background-position: center;
+ margin-left: 60%;
+}
+.areatexto{
+
+  margin-top: 4%;
+  margin-bottom: 2%;
+}

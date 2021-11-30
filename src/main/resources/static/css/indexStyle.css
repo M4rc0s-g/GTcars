@@ -1,0 +1,127 @@
+body{
+    background-color: #000000;
+     
+
+}
+
+
+header{
+	background:  #666666;
+}
+nav {
+	display:flex;
+	background: linear-gradient(to top,black 0%,grey 180%); 
+}
+
+
+.logo{
+  	height: 9%;
+  	width: 9%;
+  	margin-right: -6%;
+  	margin-left: 3%;
+}
+.container{
+    
+    margin-bottom: -0.2%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 10px auto;
+    overflow: hidden;
+    display:flex;
+    align-items: center;  /* Centra contenido de la lista en el centro en vertical*/
+  
+}
+
+a { 	
+	border-color: white;
+    color: white;
+    text-align: center;
+    margin:auto;
+    font-size: 1.7rem;
+}
+.banner {
+
+    padding-right: 5%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+div div {
+
+    display: inline-block;
+
+
+}
+
+.banner{
+    display: inline-flex;
+}
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #454545; 
+}
+.futer{
+
+    padding-left: 6%;
+    padding-top: 0.9%; 
+    display: flex;
+    background:linear-gradient(to bottom,black 0%,grey 180%);
+}
+.TextoFooter{
+
+    position:left;
+    padding-right: 5%;
+    padding-top: 0.1%;
+    width: 27%;
+    font-size: 1rem;
+}
+
+
+p{
+     color: white;
+     margin:auto;
+     text-align:left;
+     font-size: 100%;
+}
+.footerizquierdo{
+     margin-left: 4%;
+     padding-top: 0.5%;
+     border-left: 1px black solid;
+     text-align: center;
+
+}
+    .SosialMedia{
+      width: 50%;
+      padding-left: 9%;
+      padding-top: 1.6%;
+      border-left: 1px black solid;
+    }
+
+    .linkedin{
+
+     padding-right:10%;
+
+    }
+
+    .twitter{
+
+     padding-right:10%; 
+
+    }
+    .facebook{
+
+    padding-right:10%;
+
+
+    }
+
+    .instagram{
+
+     padding-right:10%;
+      
+    }
